@@ -1,6 +1,7 @@
 body {
     background-color: black;
-    margin-right: 600px;
+    width: auto;
+    font-family: TimesNewRoman;
 }
 
 .introduction h1 {
@@ -11,12 +12,15 @@ body {
     font-size: 50px;
 }
 
-#starters_image_div {
-    text-align: center;
-    display: inline-block;
+.introduction #starters_image_div {
+    width: 4000000000px;
     border: 10px solid rgb(110, 110, 240);
-    position: relative;
-    left: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 32.5%;
+
+    padding: 3px;
 
 }
 
@@ -33,4 +37,42 @@ body {
 
 .each_pokemon_container {
     text-align: center;
+}
+
+#bulbasaur_container {
+    color: white;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(115, 255, 157);
+    width: auto;
+    border: 1px solid rgb(239, 241, 80);
+    padding: 20px;
+}
+
+
+
+#charmander_container {
+    color: white;
+    color: white;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(233, 175, 68);
+    width: auto;
+    border: 1px solid rgb(239, 241, 80);
+    padding: 20px;
+}
+
+#squirtle_container {
+    color: white;
+    color: white;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(115, 255, 248);
+    width: auto;
+    border: 1px solid rgb(239, 241, 80);
+    padding: 20px;
+}
+
+footer {
+    color: white;
 }
